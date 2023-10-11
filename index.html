@@ -4,107 +4,31 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
- <title>Technical A.D.</title>
- <link rel="stylesheet" href="style.css">
- 
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <title>Cricket Game</title>
+ <link rel="stylesheet" href="/cricket.css">
 </head>
-<header>
- 
- 
- 
- <div class="navbar">
-  <h2 class="navtool">Home</h2>
- 
- <input class="searching"id="searchbar" onkeyup="search_offer()" type="text"  name="search" placeholder="Search Offers"> 
- <button id="searchIcon" class="searchIcon"><i class="fas fa-search"></i></button>
- <h2 class="navtool">About</h2>
- 
-  
- 
- </div>
- 
- 
+
+<body>
+ <h1>Bat Ball Stump Game</h1>
+ <h3 id="inst">If You Win You Get +10 and If Computer Win Your score is -5 & For Match Tie Score Remain Same</h3>
+ <hr>
+ <h3 id="score"></h3>
+ <!--
+<h1>Bat Ball Stump Game</h1>-->
+<div>
  
 
-</header>
-<body>
-  <div class="round-image">
-   <img class="profile-image"src="/img.png" alt="profile-image">
-   
-    <h2>@A.D. Reviews</h2>
-    
-   <h4>Giving Products Review and Loot Offers</h4>
-   
-  </div>
-  
-  
-  <div class="icons">
-   <a href="https://t.me/techadofficial" class="fa-brands fa-telegram"></a>
-   <a href="https://youtube.com/@A.D.Reviews?si=58ITAMmKZuN3mJRy" class="fa-brands fa-youtube"></a>
-   <a href="https://instagram.com/technical_a_d" class="fa-brands fa-instagram"></a>
-  </div>
-  
-  
-   <div class="offer 1">
-   <img class ="image2"src="/offer 1.jpg"
-   <h5 class="search">Myntra Tshirt Loot</h5>
-   <a href="https://ekaro.in/enkr20231006s36592302" class="b">•••
-   </a>
-  </div>
-  
-   <div class="offer 2">
-   <img class ="image2"src="/offer 2.jpg"
-   <h5 class="search"> Earn 250 Paytm Cash</h5>
-   <a href="https://bit.ly/3rHyTRh" class="b">•••
-   </a>
-  </div>
-  
-  
-     <div class="offer 3">
-   <img class ="image2"src="/offer 3.jpg"
-   <h5 class="search"> AU LIFETIME FREE CREDIT CARD</h5>
-   <a href="https://bit.ly/461dJMI" class="b">•••
-   </a>
-  </div>
- 
-       <div class="offer 4">
-   <img class ="image2"src="/offer 4.jpg"
-   <h5 class="search"> Laptop ₹8991 </h5>
-   <a href="https://bit.ly/48F3ekb" class="b">•••
-   </a>
-  </div>
-     
-     
-      <div class="offer 5">
-   <img class ="image2"src="/offer 5.jpg"
-   <h5 class="search">  Sbi Credit Card +1500 Paytm Cash</h5>
-   <a href="https://offers.fokatcash.com/camp.php?ref=3654C&camp=BigSave" class="b">•••
-   </a>
-  </div>
-  
-  
-   <div class="offer 6">
-   <img class ="image2"src="/offer 6.jpg"
-   <h5 class="search"> Lord Shiva Statue </h5>
-   <a href="https://amzn.to/46wMBFb" class="b">•••
-   </a>
-  </div>
-  
-   <div class="offer 7">
-   <img class ="image2"src="/offer 7.jpg"
-   <h5 class="search"> Longway Mixer Grinder</h5>
-   <a href="https://ekaro.in/enkr20230927s35595692" class="b">•••
-   </a>
-  </div>
-  
-  <script src="/script.js"></script>
+<img src="/project-2/bat.png">
+<img src="/project-2/ball.png">
+<img src="/project-2/stump.jpg">
+</div>
+<button onclick="bat()"><b>Bat</b></button>
+<button onclick="ball()"><b>Ball</b></button>
+<button onclick="stump()"><b>Stump</b></button>
+<!--
+<input id="showres" class="screen"type="text" readonly>-->
+<h2 id="showres"></h2>
+<script src="/project-2/cricket.js"></script>
 </body>
 
-
-<footer>
- <div class="footer">
-  Made By Aditya
- </div>
-</footer>
-</html>
+ </html>

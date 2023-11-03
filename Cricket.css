@@ -264,15 +264,15 @@ justify-content: space-evenly ;
 }
 
 #bat{
- background-image :url("bat.png");
+ background-image :url("/bat.png");
 }
 
 #ball{
- background-image :url("ball.png");
+ background-image :url("/ball.png");
 }
 
 #stump{
-background-image :url("stump.jpg")
+background-image :url("/stump.jpg")
 }
 
 #bat,#ball,#stump{
